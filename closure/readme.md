@@ -1,7 +1,5 @@
 # An example project that uses the google closure library using a simple MVC structure to display some Yahoo Finance Stock Info. 
 
-## Just run index.html to run in release mode
-s
 ## Running in Debug Mode
 
 A third party build tool called [Plovr](http://plovr.com/) is used to make running and compiling the code easier. To serve the code for development purposes (the example should run in compiled mode without using Plovr)
