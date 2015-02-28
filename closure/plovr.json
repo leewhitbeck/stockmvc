@@ -1,0 +1,7 @@
+{
+  "id": "stockmvc",
+  "paths": ["model", "view", "controller"],
+  "inputs": "app.js",
+  "mode": "SIMPLE",
+  "level": "VERBOSE"
+}

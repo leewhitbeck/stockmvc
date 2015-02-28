@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Stock MVC Demo</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
+   
+    <body>
+        <div class="container theme-showcase" role="main">
+
+            <div class="jumbotron">
+                <h1>MVC Stock </h1>
+                <p>Simple Demo using google closure to display a few Stocks via Yahoo Finance API</p>
+            </div>
+
+
+            <div class="page-header">
+                <h2>Yahoo Finance API results</h2>
+                <div id="stock-list-main">
+                    <ul id="stock-list"> </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+	
+	<!-- The RAW development version (to serve the files in debug mode see readme) -->
+	<!-- <script type="text/javascript" src="http://localhost:9810/compile?id=stockmvc"></script> -->
+	<script src="build/stockmvc-min.js"></script>
+
+</html>

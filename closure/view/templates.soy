@@ -1,0 +1,30 @@
+{namespace stockmvc.view}
+
+/**
+ * A stock item list template
+ * @param symbol 
+ * @param name 
+ * @param change 
+ */
+{template .stockItem}
+	<dl class="dl-horizontal">
+		<dt>Symbol: </dt>
+		<dd>{$symbol}</dd>
+		
+		<dt>Name:</dt>
+		<dd>{$name}</dd>
+		
+		<dt>Change: </dt>
+		<dd>{$change}</dd>
+    </dl>
+{/template}
+
+/**
+ * A an error
+ * @param desc
+ */
+{template .error}
+	<div class="bs-callout bs-callout-danger">
+		<h4>{$desc}</h4>
+  </div>
+{/template}
